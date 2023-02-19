@@ -63,7 +63,7 @@ public class MyLinkedList<E> implements MyLinkedListInterface<E>{
          if (size != 0) last.next = null;
         removed.previous = null;
 
-        return null;
+        return removed.value;
     }
 
     @Override

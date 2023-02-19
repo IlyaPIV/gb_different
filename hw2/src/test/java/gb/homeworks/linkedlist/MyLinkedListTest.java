@@ -45,12 +45,12 @@ class MyLinkedListTest {
 
     }
 
-    private static void searching(MyLinkedList<String> myLinkedList) {
+    private void searching(MyLinkedList<String> myLinkedList) {
         System.out.println("LinkedList contains 'a'? " + myLinkedList.contains("a"));
         System.out.println("LinkedList contains 'z'? " + myLinkedList.contains("z"));
     }
 
-    private static void removing(MyLinkedList<String> myLinkedList) {
+    private void removing(MyLinkedList<String> myLinkedList) {
         myLinkedList.removeFirst();
         myLinkedList.display();
         myLinkedList.removeFirst();
@@ -70,7 +70,7 @@ class MyLinkedListTest {
 
     }
 
-    private static void initValues(MyLinkedList<String> myLinkedList) {
+    private void initValues(MyLinkedList<String> myLinkedList) {
         myLinkedList.insertLast("a");
         myLinkedList.display();
         myLinkedList.insertFirst("b");
