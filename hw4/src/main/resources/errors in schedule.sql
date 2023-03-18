@@ -22,3 +22,4 @@ order by sch.date, sch.time) as films1
 		join cinema.film as f on sch.film_id=f.id
 	order by sch.date, sch.time) as films2 ON films1.date=films2.date
     WHERE films1.endtime>films2.time AND films1.time<films2.time;
+   

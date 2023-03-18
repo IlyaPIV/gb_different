@@ -37,3 +37,4 @@ FROM (SELECT 	ts.schedule_id,
 			JOIN cinema.pricelist AS pr ON ts.schedule_id=pr.schedule_id
 		GROUP BY ts.schedule_id) AS sales
 GROUP BY sales.timezone;
+    
