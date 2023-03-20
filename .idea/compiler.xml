@@ -10,8 +10,12 @@
         <module name="hw2" />
         <module name="hw1" />
         <module name="hw4" />
+        <module name="hw_5" />
         <module name="hw3" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hw5" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
