@@ -12,6 +12,7 @@
         <module name="hw4" />
         <module name="hw_5" />
         <module name="hw3" />
+        <module name="hw6" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
